@@ -1,7 +1,10 @@
 [package]
 name = "fable-rust-sample"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+
+[features]
+no_std = ["fable_library_rust/no_std"]
 
 [dependencies]
 fable_library_rust = { path = "./fable_modules/fable-library-rust" }
